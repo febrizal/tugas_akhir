@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Presiden</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_menuutama">Menu Utama</string>
+    <string name="title_activity_presiden">Presiden</string>
+    <string name="title_activity_detail_informasi">Detail Informasi</string>
+    <string name="title_activity_wakil">Wakil</string>
+    <string name="title_activity_detail_informasi2">Detail Informasi</string>
+    <string name="title_activity_tentang">Tentang</string>
+
+</resources>

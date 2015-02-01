@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aplikasi.presiden"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.aplikasi.presiden.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aplikasi.presiden.MenuutamaActivity"
+            android:label="@string/title_activity_menuutama" >
+        </activity>
+        <activity
+            android:name="com.aplikasi.presiden.PresidenActivity"
+            android:label="@string/title_activity_presiden" >
+        </activity>
+        <activity
+            android:name="com.aplikasi.presiden.DetailInformasi"
+            android:label="@string/title_activity_detail_informasi" >
+        </activity>
+        <activity
+            android:name="com.aplikasi.presiden.WakilActivity"
+            android:label="@string/title_activity_wakil" >
+        </activity>
+        <activity
+            android:name="com.aplikasi.presiden.DetailInformasi2"
+            android:label="@string/title_activity_detail_informasi2" >
+        </activity>
+        <activity
+            android:name="com.aplikasi.presiden.TentangActivity"
+            android:label="@string/title_activity_tentang" >
+        </activity>
+    </application>
+
+</manifest>
